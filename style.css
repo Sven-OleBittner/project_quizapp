@@ -13,3 +13,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.question_footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
