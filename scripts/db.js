@@ -1,0 +1,42 @@
+let questions = [
+    {
+        "question" : "Wer hat HTML erfunden?",
+        "anwer_1" : "Robbie Williams",
+        "anwer_2" : "Lady Gaga",
+        "anwer_3" : "Tim Bernes-Lee",
+        "anwer_4" : "Justin Bieber",
+        "right_answer" : 3,
+    },
+    {
+        "question" : "Wie bindet man eine Website in eine Website?",
+        "answer_1" : "Robbie Williams",
+        "answer_2" : "Lady Gaga",
+        "answer_3" : "Tim Bernes-Lee",
+        "answer_4" : "Justin Bieber",
+        "right_answer" : 3,
+    },
+    {
+        "question" : "Wer hat HTML erfunden?",
+        "answer_1" : "Robbie Williams",
+        "answer_2" : "Lady Gaga",
+        "answer_3" : "Tim Bernes-Lee",
+        "answer_4" : "Justin Bieber",
+        "right_answer" : 3,
+    },
+    {
+        "question" : "Wer hat HTML erfunden?",
+        "answer_1" : "Robbie Williams",
+        "answer_2" : "Lady Gaga",
+        "answer_3" : "Tim Bernes-Lee",
+        "answer_4" : "Justin Bieber",
+        "right_answer" : 3,
+    },
+    {
+        "question" : "Wer hat HTML erfunden?",
+        "answer_1" : "Robbie Williams",
+        "answer_2" : "Lady Gaga",
+        "answer_3" : "Tim Bernes-Lee",
+        "answer_4" : "Justin Bieber",
+        "right_answer" : 3,
+    },
+];
