@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="body">
+  <body class="body" onload="init()">
     <section class="header">
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
@@ -43,7 +43,7 @@
             <div class="card-body">This is some text within a card body.</div>
           </div>
           <div class="question_footer">
-            <span> <b>1</b> von <b>5</b> Fragen </span>
+            <span> <b>1</b> von <b id="questionsFullNum"></b> Fragen </span>
 
             <button type="button" class="btn btn-primary">Nächste Frage</button>
           </div>
