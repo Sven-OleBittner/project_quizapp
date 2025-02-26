@@ -7,6 +7,18 @@
     background-color: rebeccapurple !important;
 }
 
+.d_none{
+    display: none;
+}
+
+.width_100{
+    width: 100%;
+}
+
+.text_center{
+    text-align: center;
+}
+
 .main{
     min-height: 100vh;
     display: flex;
@@ -29,4 +41,16 @@
 .active_hover:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.answer_right{
+    background-color: green;
+}
+
+.answer_false {
+    background-color: red;
+}
+
+.answer_false, .answer_right {
+    color: white;
 }
