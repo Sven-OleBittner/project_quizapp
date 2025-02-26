@@ -19,6 +19,11 @@
     text-align: center;
 }
 
+.align_center{
+    display: flex;
+    justify-content: center;
+}
+
 .main{
     min-height: 100vh;
     display: flex;

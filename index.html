@@ -23,7 +23,7 @@
     </section>
     <section class="main">
       <div class="card quiz_card">
-        <img
+        <img id="cardImg"
           src="./assets/img/html_code.jpg"
           class="card-img-top"
           alt="HTML-Code"
@@ -32,9 +32,12 @@
           <div class="text_center">
             <span>Du hast das Quiz beendet!</span>
           </div>
-          <img class="width_100" src="./assets/img/brainbg.jpg" alt="" />
+          <!-- <img class="width_100" src="./assets/img/brainbg.jpg" alt="" /> -->
           <div class="text_center">
-            <span>Du hast <b id="rightAnswerNum">xxx</b> von <b id="fullNum">xxx</b> richtig beantwortet!</span>
+            <span>Du hast <b id="rightAnswerNum"></b> von <b id="fullNum"></b> richtig beantwortet!</span>
+          </div>
+          <div class="align_center width_100 mt-2">
+            <button class="btn btn-primary" onclick="startNewQuiz()">Neu Starten</button>
           </div>
         </div>
         <div class="card-body" id="cardBody">

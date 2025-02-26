@@ -52,8 +52,15 @@ function resetQuestion(answerId) {
 }
 
 function endScreen() {
+    document.getElementById("cardImg").src = "./assets/img/brainbg.jpg";
     document.getElementById("fullNum").innerHTML = questions.length;
     document.getElementById("cardBody").classList.add("d_none");
     document.getElementById("rightAnswerNum").innerHTML = currentRightAnswer;
     document.getElementById("quizEndScreen").classList.remove("d_none");
+}
+
+function startNewQuiz() {
+    document.getElementById("cardBody").classList.remove("d_none");
+    document.getElementById("quizEndScreen").classList.add("d_none");
+    showQuestion();
 }
