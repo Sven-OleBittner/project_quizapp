@@ -29,23 +29,23 @@
           alt="HTML-Code"
         />
         <div class="card-body">
-          <h5 class="card-title">Frage</h5>
-          <div class="card mb-2">
-            <div class="card-body">This is some text within a card body.</div>
+          <h5 class="card-title" id="questionText">Frage</h5>
+          <div class="card mb-2 active_hover" onclick="answer('answer1')">
+            <div class="card-body" id="answer1">This is some text within a card body.</div>
           </div>
-          <div class="card mb-2">
-            <div class="card-body">This is some text within a card body.</div>
+          <div class="card mb-2 active_hover" onclick="answer('answer2')">
+            <div class="card-body" id="answer2">This is some text within a card body.</div>
           </div>
-          <div class="card mb-2">
-            <div class="card-body">This is some text within a card body.</div>
+          <div class="card mb-2 active_hover" onclick="answer('answer3')">
+            <div class="card-body" id="answer3">This is some text within a card body.</div>
           </div>
-          <div class="card mb-2">
-            <div class="card-body">This is some text within a card body.</div>
+          <div class="card mb-2 active_hover" onclick="answer('answer4')">
+            <div class="card-body" id="answer4">This is some text within a card body.</div>
           </div>
           <div class="question_footer">
-            <span> <b>1</b> von <b id="questionsFullNum"></b> Fragen </span>
+            <span> <b id="questionsNum">1</b> von <b id="questionsFullNum"></b> Fragen </span>
 
-            <button type="button" class="btn btn-primary">Nächste Frage</button>
+            <button type="button" class="btn btn-primary" onclick="nextQuestion()">Nächste Frage</button>
           </div>
         </div>
       </div>
